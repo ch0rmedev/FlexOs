@@ -130,7 +130,7 @@ export LANG=C.UTF-8
 apt-get update
 apt-get install -y --no-install-recommends \
   linux-image-amd64 initramfs-tools systemd-sysv \
-  grub-common grub-pc-bin grub-efi-amd64-bin efibootmgr \
+  grub2-common grub-common grub-pc-bin grub-efi-amd64-bin efibootmgr \
   gdisk cloud-guest-utils e2fsprogs dosfstools locales sudo ca-certificates
 
 apt-get install -y \
